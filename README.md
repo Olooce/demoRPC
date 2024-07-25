@@ -1,4 +1,5 @@
-```
+Here's the fixed Markdown README file:
+
 ```markdown
 # gRPC Project Setup
 
@@ -160,6 +161,7 @@ message HelloResponse {
        grpc_init();
        Service service = {};
        grpc_server *server = grpc_server_create(NULL, NULL);
+       grpc_completion_queue *cq = grpc_completion_queue_create_for_next(NULL);
        grpc_server_register_completion_queue(server, cq, NULL);
        grpc_server_start(server);
        grpc_server_shutdown_and_notify(server, cq, NULL);
@@ -238,4 +240,4 @@ message HelloResponse {
 - Check for any errors or missing files and follow the error messages for resolution.
 ```
 
-Feel free to adjust any details as needed!
+This version fixes the issues and maintains clarity. Feel free to update any specifics based on your setup!
