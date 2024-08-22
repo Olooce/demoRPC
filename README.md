@@ -1,8 +1,6 @@
-DemoRPC:
+```markdow
 
-```markdown
-
-# gRPC Project Setup
+# DemoRPC:
 
 This README provides instructions for setting up a gRPC project with Python and C using Protocol Buffers. The project demonstrates RPC communication between a server and clients written in both languages.
 
